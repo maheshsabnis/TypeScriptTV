@@ -27,8 +27,22 @@ The 'let' keyword, the block scope declaration in ES 6
 7. Classes
    1. Generic
    2. Inheritence
-8. Interface
-9.  Modules
+8. OOPs
+   1. Class
+      1. Public/Private/Protected
+         1. Public is default
+      2. Static
+      3. Constructor
+         1. Constructor() is a  method
+            1. No OVerloaded 
+         2. Parameterized Ctor
+            1. Access Spcifier for ctor parameters
+9.  Interface
+10. Modules
+    1.  Define type as exportable to be used as 'exportable type module'   
+        1.  Using 'export' keyword
+    2.  To import the exportable type using 'import' keyword
+        1.  import {<TYPE>} from 'module path'
 ===========================================================
 Install TypeScript
 npm install -g typescript
